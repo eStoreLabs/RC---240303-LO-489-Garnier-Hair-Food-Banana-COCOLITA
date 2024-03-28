@@ -1,0 +1,996 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@300;400;700;900&display=swap');
+#es-garnier.es-garnier {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222221;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 930px;
+}
+
+#es-garnier.es-garnier .es-kv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#es-garnier.es-garnier .es-kv .es-intro {
+  margin: 0 auto;
+}
+
+#es-garnier.es-garnier .es-kv .es-intro__header {
+  font-family: 'Kaushan Script', cursive;
+  color: #ffcf3c;
+  text-align: left;
+  padding: 0 0 0 32px;
+  margin: 16px 0;
+  font-size: 42px;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+
+#es-garnier.es-garnier .es-kv .es-intro__packshot {
+  max-width: 100%;
+}
+
+#es-garnier.es-garnier .es-kv .es-intro__img {
+  width: 100%;
+}
+
+#es-garnier.es-garnier .es-kv .es-info {
+  margin: 0 auto;
+}
+
+#es-garnier.es-garnier .es-kv .es-info__badge {
+  max-width: 100%;
+}
+
+#es-garnier.es-garnier .es-kv .es-info__badge-img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+#es-garnier.es-garnier .es-kv .es-info__header {
+  max-width: 100%;
+  margin: 32px 0;
+}
+
+#es-garnier.es-garnier .es-kv .es-info__header-img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-garnier.es-garnier .es-kv .es-info__logo {
+  max-width: 100%;
+  margin: 32px 0;
+}
+
+#es-garnier.es-garnier .es-kv .es-info__logo-img {
+  max-width: 100%;
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+#es-garnier.es-garnier .es-kv .es-info .es-desc {
+  background: url("./images/border.png") top center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 16px 16px 32px 16px;
+}
+
+#es-garnier.es-garnier .es-kv .es-info .es-desc__text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#es-garnier.es-garnier .es-kv .es-info .es-desc__text--color {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #ffcf3c;
+}
+
+#es-garnier.es-garnier .es-kv .es-info .es-disclaimer__text {
+  padding: 0;
+  margin: 8px 0;
+  color: #ffcf3c;
+  text-align: center;
+}
+
+#es-garnier.es-garnier .es-description__arrow-img {
+  display: block;
+  margin: 0 auto 32px auto;
+}
+
+#es-garnier.es-garnier .es-description__content {
+  position: relative;
+}
+
+#es-garnier.es-garnier .es-description__badge {
+  position: absolute;
+  top: -24px;
+  right: 0;
+}
+
+#es-garnier.es-garnier .es-description__badge-img {
+  max-width: 125px;
+}
+
+#es-garnier.es-garnier .es-description__packshot-img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+#es-garnier.es-garnier .es-description__background {
+  display: none;
+}
+
+#es-garnier.es-garnier .es-description__text {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+
+}
+
+#es-garnier.es-garnier .es-description__text--color {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #ffcf3c;
+}
+
+#es-garnier.es-garnier .es-description__disclaimer {
+  padding: 0;
+  margin: 16px 0;
+  color: #ffcf3c;
+}
+
+#es-garnier.es-garnier .es-eco__arrow-img {
+  display: block;
+  margin: 32px auto 32px auto;
+}
+
+#es-garnier.es-garnier .es-eco__header {
+  padding: 0;
+  margin: 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 36px;
+  font-weight: 200;
+  color: #056242;
+  text-align: center;
+}
+
+#es-garnier.es-garnier .es-eco__header-img {
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+#es-garnier.es-garnier .es-eco__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: center;
+  margin: 32px auto;
+  position: relative;
+}
+
+#es-garnier.es-garnier .es-eco__desc {
+  background: url("./images/border-2.png") top center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 16px 16px 32px 16px;
+  margin-bottom: 48px;
+  position: relative;
+}
+#es-garnier.es-garnier .es-eco__claim{
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  color: #056242;
+  font-weight: 700;
+  font-size: 14px;
+}
+#es-garnier.es-garnier .es-eco__title {
+  padding: 0;
+  margin: 16px 0;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #056242;
+}
+
+#es-garnier.es-garnier .es-eco__text {
+  padding: 0;
+  margin: 16px 0;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#es-garnier.es-garnier .es-eco__packshot-img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+#es-garnier.es-garnier .es-benefits__header {
+  margin: 32px 0;
+  padding: 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 36px;
+  font-weight: 200;
+  color: #056242;
+  text-align: center;
+}
+
+#es-garnier.es-garnier .es-benefits__header-img {
+  margin-top: 8px;
+}
+
+#es-garnier.es-garnier .es-benefits__packshot-img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+#es-garnier.es-garnier .es-benefits__desc {
+  position: relative;
+  margin: 32px 0;
+}
+
+#es-garnier.es-garnier .es-benefits__background {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -15%);
+          transform: translate(-50%, -15%);
+  z-index: -1;
+}
+
+#es-garnier.es-garnier .es-benefits__background-img {
+  height: 350px;
+}
+
+#es-garnier.es-garnier .es-benefits .es-single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#es-garnier.es-garnier .es-benefits .es-single__label {
+  display: inline-block;
+  margin: 12px 16px 12px 0;
+  padding: 4px 16px 2px 16px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #ffcf3c;
+}
+
+#es-garnier.es-garnier .es-benefits .es-single__text {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#es-garnier.es-garnier .es-benefits__disclaimer {
+  color: #ffcf3c;
+  margin: 32px 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+#es-garnier.es-garnier .es-video__arrow-img {
+  display: block;
+  margin: 32px auto 32px auto;
+}
+
+#es-garnier.es-garnier .es-video__border {
+  background: url("./images/border-3.png") top center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 16px 16px 32px 16px;
+  margin-bottom: 48px;
+}
+
+#es-garnier.es-garnier .es-video__container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+#es-garnier.es-garnier .es-video__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#es-garnier.es-garnier .es-routine__header {
+  padding: 0;
+  margin: 32px 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 36px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#es-garnier.es-garnier .es-routine__header--color {
+  color: #ffcf3c;
+}
+
+#es-garnier.es-garnier .es-routine .es-step {
+  text-align: center;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__title {
+  padding: 0;
+  margin: 16px 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 64px;
+  font-weight: 200;
+  color: #ffcf3c;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__subtitle {
+  padding: 0;
+  margin: 16px 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__text {
+  padding: 0;
+  margin: 16px 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 16px 0 32px 0;
+  padding: 12px 24px;
+  border: 3px solid #ffcf3c;
+  border-radius: 10px;
+  background: #fff;
+  color: #ffcf3c;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__packshot {
+  position: relative;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__packshot-img {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__packshot--1 {
+  right: 18px;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__packshot--2 {
+  right: 18px;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__packshot--3 {
+  right: 0px;
+}
+
+#es-garnier.es-garnier .es-cross__header {
+  padding: 0;
+  margin: 32px 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 36px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#es-garnier.es-garnier .es-cross__header--color {
+  color: #a19e9d;
+}
+
+#es-garnier.es-garnier .es-cross .es-product {
+  margin-bottom: 48px;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__title {
+  padding: 0;
+  margin: 16px 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 36px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__title--1 {
+  color: #f37229;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__title--2 {
+  color: #703c3a;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__title--3 {
+  color: #00c59f;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__text {
+  padding: 0;
+  margin: 16px 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__packshot {
+  position: relative;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__packshot-img {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__single:not(:last-child) {
+  margin-right: 16px;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__subtitle {
+  padding: 0;
+  margin: 16px 0;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 16px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__link--1 {
+  background-color: #f37229;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__link--2 {
+  background-color: #703c3a;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__link--3 {
+  background-color: #00c59f;
+}
+
+#es-garnier.es-garnier .es-routine__header--color {
+  font-size: 36px !important;
+}
+
+#es-garnier.es-garnier {
+  max-width: 1300px;
+}
+
+#es-garnier.es-garnier .es-kv {
+  margin-top: 32px;
+}
+
+#es-garnier.es-garnier .es-kv .es-intro__header {
+  font-size: 42px !important;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__subtitle {
+  font-size: 36px !important;
+}
+
+#es-garnier.es-garnier .es-cross__header--color {
+  font-size: 48px !important;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__subtitle {
+  font-size: 24px !important;
+}
+
+@media (min-width: 768px) {
+  #es-garnier.es-garnier .es-kv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+  #es-garnier.es-garnier .es-kv .es-intro {
+    margin-right: 32px;
+    margin-top: 88px;
+  }
+  #es-garnier.es-garnier .es-description__arrow-img {
+    margin: -48px auto 32px auto;
+  }
+  #es-garnier.es-garnier .es-description__content {
+    position: relative;
+  }
+  #es-garnier.es-garnier .es-description__badge {
+    position: absolute;
+    top: -68px;
+    right: auto;
+    left: 16px;
+  }
+  #es-garnier.es-garnier .es-description__packshot {
+    display: none;
+  }
+  #es-garnier.es-garnier .es-description__background {
+    display: block;
+  }
+  #es-garnier.es-garnier .es-description__background-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  #es-garnier.es-garnier .es-description__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 120px 0 0 80px;
+    max-width: 40%;
+    color: #fff;
+    line-height: 1.8;
+  }
+  #es-garnier.es-garnier .es-description__text--color {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #ffcf3c;
+  }
+  #es-garnier.es-garnier .es-description__disclaimer {
+    position: relative;
+    z-index: 1;
+    padding: 0 0 0 80px;
+    margin: -70px 0 0 0;
+  }
+  #es-garnier.es-garnier .es-eco {
+    margin-bottom: 64px;
+  }
+  #es-garnier.es-garnier .es-eco__arrow-img {
+    position: relative;
+    z-index: 1;
+  }
+  #es-garnier.es-garnier .es-eco__header {
+    margin: 0 auto;
+    max-width: 70%;
+  }
+  #es-garnier.es-garnier .es-eco__header-img {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+  #es-garnier.es-garnier .es-eco__content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #es-garnier.es-garnier .es-eco__desc {
+    margin-bottom: 0;
+    margin-right: 32px;
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+  }
+  #es-garnier.es-garnier .es-eco__packshot {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+  }
+  #es-garnier.es-garnier .es-benefits__header {
+    margin: 0 auto 16px;
+    max-width: 70%;
+  }
+  #es-garnier.es-garnier .es-benefits__header-img {
+    margin-top: 8px;
+  }
+  #es-garnier.es-garnier .es-benefits__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #es-garnier.es-garnier .es-benefits__packshot {
+    margin-right: 32px;
+  }
+  #es-garnier.es-garnier .es-benefits__desc {
+    padding-top: 56px;
+    margin-bottom: 0;
+  }
+  #es-garnier.es-garnier .es-benefits__background {
+    top: 56px;
+    left: 40%;
+  }
+  #es-garnier.es-garnier .es-benefits__disclaimer {
+    margin-bottom: 0;
+  }
+  #es-garnier.es-garnier .es-routine {
+    margin-top: 100px;
+  }
+  #es-garnier.es-garnier .es-routine__steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  #es-garnier.es-garnier .es-routine .es-step {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    position: relative;
+  }
+  #es-garnier.es-garnier .es-routine .es-step:not(:first-child):before {
+    content: url(./images/plus.png);
+    position: absolute;
+    bottom: 128px;
+    left: -64px;
+    z-index: 2;
+  }
+  #es-garnier.es-garnier .es-routine .es-step:not(:last-child) {
+    margin-right: 32px;
+  }
+  #es-garnier.es-garnier .es-routine .es-step__title {
+    margin-top: 0;
+  }
+  #es-garnier.es-garnier .es-routine .es-step__text {
+    min-height: 150px;
+  }
+  #es-garnier.es-garnier .es-cross__header {
+    font-size: 48px;
+  }
+  #es-garnier.es-garnier .es-cross__products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #es-garnier.es-garnier .es-cross .es-product {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #es-garnier.es-garnier .es-cross .es-product__title {
+    font-size: 48px;
+  }
+  #es-garnier.es-garnier .es-cross .es-product__text {
+    margin: 16px 0 32px 0;
+    padding: 0 16px;
+  }
+  #es-garnier.es-garnier .es-cross .es-product__packshot {
+    position: relative;
+  }
+  #es-garnier.es-garnier .es-cross .es-product__packshot-img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    min-height: 400px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #es-garnier.es-garnier .es-cross .es-product__buttons {
+    margin-top: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #es-garnier.es-garnier .es-cross .es-product__single {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #es-garnier.es-garnier .es-cross .es-product__single:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+@media (min-width: 960px) {
+  #es-garnier.es-garnier .es-description__text {
+    padding: 140px 0 0 100px;
+    font-size: 18px;
+  }
+
+  #es-garnier.es-garnier .es-description__disclaimer {
+    padding: 0 0 0 100px;
+  }
+}
+/*# sourceMappingURL=style-v2.css.map */
+
+#es-garnier.es-garnier {
+  padding: 0 10px;
+}
+
+#es-garnier.es-garnier .es-eco__header {
+  font-size: 48px;
+}
+
+#es-garnier.es-garnier .es-eco__header-img {
+  margin: 16px 0;
+}
+
+#es-garnier.es-garnier .es-description__badge-img {
+  max-width: 160px;
+}
+
+
+#es-garnier.es-garnier .es-benefits__background {
+  width: 150%;
+}
+
+#es-garnier.es-garnier .es-benefits__background-img {
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-garnier.es-garnier .es-benefits__header {
+  font-size: 48px;
+}
+
+#es-garnier.es-garnier .es-benefits__header-img {
+  margin: 16px 0;
+}
+
+#es-garnier.es-garnier .es-routine__header--color {
+  font-size: 40px !important;
+}
+
+#es-garnier.es-garnier .es-routine__header {
+  font-size: 40px;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__subtitle {
+  margin: 0;
+}
+
+#es-garnier.es-garnier .es-cross__header {
+  font-size: 40px;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__subtitle {
+  font-size: 32px !important;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__text {
+  margin: 0 0 16px 0;
+  color: #ffcf3c;
+  font-size: 20px;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__single {
+  align-items: center;
+}
+
+#es-garnier.es-garnier .es-cross__header--color {
+  font-size: 48px !important;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__title {
+  font-size: 40px;
+}
+
+#es-garnier.es-garnier .es-routine__header {
+  margin: 32px 0 48px 0;
+  font-size: 60px;
+}
+
+#es-garnier.es-garnier .es-routine__header--color {
+  font-size: 60px !important;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__title {
+  font-size: 80px;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__subtitle {
+  font-size: 48px !important;
+}
+
+#es-garnier.es-garnier .es-routine .es-step__link {
+  font-size: 20px;
+}
+
+#es-garnier.es-garnier .es-cross__header {
+  font-size: 60px;
+}
+
+#es-garnier.es-garnier .es-cross__header--color {
+  font-size: 60px !important;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__title {
+  font-size: 60px;
+}
+
+@media (min-width: 768px) {
+  #es-garnier.es-garnier .es-eco__header-img {
+    margin: 16px;
+  }
+
+  #es-garnier.es-garnier .es-benefits__header-img {
+    margin: 16px;
+  }
+
+  #es-garnier.es-garnier .es-description__text {
+    padding: 120px 0 0 80px;
+    max-width: 50%;
+  }
+
+  #es-garnier.es-garnier .es-description__badge {
+    top: -45px;
+  }
+
+  #es-garnier.es-garnier .es-kv .es-info__badge-img {
+    max-width: 100%;
+    margin: 32px 0;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+  }
+
+  #es-garnier.es-garnier .es-routine .es-step__text {
+    min-height: 238px;
+  }
+
+  #es-garnier.es-garnier .es-cross .es-product__text {
+    font-size: 20px;
+  }
+
+  #es-garnier.es-garnier .es-cross__header--color {
+    font-size: 60px !important;
+  }
+
+  #es-garnier.es-garnier .es-benefits__background {
+    top: 62px;
+    left: 37%;
+  }
+
+  #es-garnier.es-garnier .es-benefits__background-img {
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 920px) {
+  #es-garnier.es-garnier .es-description__text {
+    padding: 150px 0px 0px 100px;
+    font-size: 18px;
+  }
+
+  #es-garnier.es-garnier .es-description__text {
+    padding: 150px 0px 0px 100px;
+    font-size: 18px;
+    max-width: 420px;
+  }
+
+  #es-garnier.es-garnier .es-routine .es-step__text {
+    min-height: 207px;
+  }
+}
+
+#es-garnier.es-garnier .es-cross .es-product__title--4 {
+  color: #d65b51;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__link--4 {
+  background-color: #d65b51;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__title--5 {
+  color: #f37229;
+}
+
+#es-garnier.es-garnier .es-cross .es-product__link--5 {
+  background-color: #f37229;
+}
+
+@media (min-width: 768px) {
+  #es-garnier.es-garnier .es-cross .es-product__packshot {
+    position: relative;
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+}
+
+@media (min-width: 1300px) {
+  #es-garnier.es-garnier .es-kv .es-info {
+    margin-left: 30px;
+  }
+    #es-garnier.es-garnier .es-description__background-img {
+      max-width: 1300px;
+    }
+}
